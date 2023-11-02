@@ -12,42 +12,32 @@
 	
 	<h1>Lütfen Formu Eksiksiz Doldurunuz.</h1> 
 	
-	
-		<table border= "1" width="100%">
-	<tr>
-		
-		<td><p> Kullanıcı Adı : <input type="text" name="username" placeholder="Kullanıcı adı giriniz" required> </p></td>
-		<td><p> Eposta : <input type="email" name="eposta" placeholder="Eposta giriniz" required> </p></td>
-		<td><p> Parola : <input type="password" name="parola" placeholder="parola giriniz" required> </p></td>
+	<fieldset> 
+        <legend>Kişisel Bilgileriniz </legend>
+        <label for="nameID">Kullanıcı Adı</label><br>
+        <input type="text" name="name" id="nameID" placeholder=" Kullanıcı Adınızı giriniz"><br>
+        <label for="nameID">Parola</label><br>
+        <input type="text" name="name" id="passawordID" placeholder="Parola giriniz"><br>
+        
+        <label for="nameID">E Posta</label><br>
+        <input type="text" name="name" id="epostaID" placeholder="Eposta giriniz"><br>
+        
+        <label for="nameID"> Adı</label><br>
+        <input type="text" name="name" id="realnameID" placeholder="Adınız"><br>
+        
+        <label for="nameID">Soyadı</label><br>
+        <input type="text" name="name" id="surnameID" placeholder="Soyadınız"><br><br>
+        
+        <td>Şehir : <select name="sehir"> <option>Seçiniz</option> <option>Ankara</option> <option>İstanbul</option> <option>Kocaeli</option> </select></td> <br>
+        
+        <td><p> Cinsiyet : <input type="radio" name="cinsiyet"> Erkek <input type="radio" name="cinsiyet"> Kadın </p> </td> <br>
+        
+        
+        <td><p> Hobileriniz : <input type="checkbox" name="hobiler">Sinema <input type="checkbox" name="hobiler">Gezmek <input type="checkbox" name="hobiler">Spor <input type="checkbox" name="hobiler">Kitap </p> </td><br>
+        
+        <input type="submit" value="Kaydet">
+   
+    </fieldset>
 
-	</tr>
-	
-		
-	
-		<br>
-		<h4>Kişisel Bilgileriniz</h4>
-		<tr>
-			
-		<td><p> Ad: <input type="text" name="ad"> </p>
-		</td>
-		<td><p> Soyad :<input type="text" name="soyad"> </p></td>
-		<td>Şehir : <select name="sehir"> <option>Seçiniz</option> <option>Ankara</option> <option>İstanbul</option> <option>Kocaeli</option> </select></td>
-			
-		<td><p> Cinsiyet : <input type="radio" name="cinsiyet"> Erkek <input type="radio" name="cinsiyet"> Kadın </p> </td>
-		
-		<td><p> Hobileriniz : <input type="checkbox" name="hobiler">Sinema <input type="checkbox" name="hobiler">Gezmek <input type="checkbox" name="hobiler">Spor <input type="checkbox" name="hobiler">Kitap </p> </td>
-		
-			 
-		
-		</tr>
-	
-	
-	</table>
-	
-	<input type="submit" value="Kaydet">
-	
-	
-
-	
 </body>
 </html>
