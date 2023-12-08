@@ -3,11 +3,31 @@
 <head>
 <meta charset="utf-8">
 <title>Başlıksız Belge</title>
-</head>
-
-<body>
     <link rel="stylesheet" href="style.css">
     
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
+</head>
+    
+
+    
+    
+
+<body>
+      <img src="../Görseller/resim1.jpeg" id="resim">
+
+    
+    
+    <script>
+        var res = document.getElementById("resim");
+        var liste = new Array("../Görseller/resim1.jpg", "../Görseller/resim2.jpg", "../Görseller/resim3.jpg", "../Görseller/resim4.jpg", "../Görseller/resim5.jpg","../Görseller/resim6.jpg", "../Görseller/resim7.jpg","../Görseller/resim8.jpg","../Görseller/resim9.jpg",);
+        var r = Math.floor(liste.length * Math.random());
+        window.alert(liste[r]);
+        res.src = liste[r];
+        
+    
+    </script>
+  
+    
+    
 </body>
 </html>
